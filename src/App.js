@@ -10,9 +10,22 @@ function App() {
         <div style={{ display: 'flex', flexDirection: 'column' }}>
           <Navbar />
           <br />
+          <br />
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+
+          <div className='home'>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
+          </div>
         </div>
       </Router>
     </div>
