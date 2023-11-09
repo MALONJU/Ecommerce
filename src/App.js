@@ -1,4 +1,3 @@
-
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -8,12 +7,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar />
-     
-      <Routes>
-      <Route path="/" element={<Home />}/>
-      </Routes>
-     
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <Navbar />
+          <br />
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
       </Router>
     </div>
   );
